@@ -1,0 +1,8 @@
+_target_: src.models.vanilla_policy_gradient.VPGLightning
+
+env: CartPole-v0
+entropy_beta: 0.01
+gamma: 0.99
+batch_episodes: 4
+lr: 1e-4
+seed: 123

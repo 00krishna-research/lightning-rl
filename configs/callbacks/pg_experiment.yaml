@@ -1,0 +1,6 @@
+defaults:
+  - default.yaml
+
+simulate_control:
+  _target_: src.callbacks.simulate_control.SimulateControl
+  simulation_steps: 2000
